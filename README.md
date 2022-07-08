@@ -17,7 +17,7 @@ The core functionality is added:
 3. User can see 5 days of forecast data
 4. Debounced input search
 5. redux-toolkit used which automatically manages actions which also internally uses **Immer library** which handles immutability of state out of the box
-6. weatherCode-image mapping used to give smooth user experience
+6. weatherCode-image mapping used to give exact image of the weather in current time.
 
 ## Areas of improvement
 1. The App still can be more broken down into components
