@@ -8,6 +8,9 @@ The core functionality is added:
 4. User can add selected location to the Favorites list
 5. User can select location from the Favorites list
 
+## Public Library used (only 1)
+1. dayjs for date formating
+
 ## Features
 1. User can search for any location 
 2. If already added to favorites then button will be replaced with text
