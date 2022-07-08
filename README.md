@@ -20,6 +20,7 @@ The core functionality is added:
 1. The App still can be more broken down into components
 2. Functional test can be added by using cypress
 3. Can cache location data if already searched for it by using memo.
+4. Local storage or database can be used to persist favorite location data
 
 ## Available Scripts
 
