@@ -1,0 +1,44 @@
+.search-container{
+    width: 40rem;
+    position: relative;
+}
+
+p.error {
+    color: #ff0000;
+    margin: 1rem;
+}
+
+.ac-input {
+    margin: 8px 0 -1px;
+    padding: 12px 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    width: 100%;
+}
+.ac-input::before{
+    content:'&#x1F50D';
+}
+
+.suggestion-container{
+    border: 1px solid #ccc;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1000;
+    background: #ffffff;
+    position: absolute;
+}
+
+ul{
+    list-style-type: none;
+    padding: 0;
+}
+
+li{
+    padding: 12px 20px;
+    cursor: pointer;
+}
+
+li:hover{
+    background-color: rgba(0,0,0,0.1);
+}

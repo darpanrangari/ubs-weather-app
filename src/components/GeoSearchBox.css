@@ -1,0 +1,8 @@
+.search-container{
+    width: 40rem;
+}
+
+p.error {
+    color: #ff0000;
+    margin: 1rem;
+}

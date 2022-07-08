@@ -1,0 +1,29 @@
+section.forecast-section{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.forecast-subheader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 5rem;
+}
+.forecast-subheader > button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.forecast-subheader > button {
+    background-color: #45a049;
+}
+.forecast-subheader > strong{
+    color: #4CAF50;
+}
+.forecast-subheader > span{
+    margin: 5px;
+}

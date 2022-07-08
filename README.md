@@ -1,6 +1,25 @@
-# Getting Started with Create React App
+# UBS Weather App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+The core functionality is added:
+
+1. User can search for the location (using the geolocation API)
+2. User can select location item from the suggested list of search results
+3. User can view weather forecast for next 5 days for selected location (using the forecast API)
+4. User can add selected location to the Favorites list
+5. User can select location from the Favorites list
+
+## Features
+1. User can search for any location 
+2. If already added to favorites then button will be replaced with text
+3. User can see 5 days of forecast data
+4. Debounced input search
+5. redux-toolkit used which automatically manages actions which also internally uses **Immer library** which handles immutability of state out of the box
+6. weatherCode-image mapping used to give smooth user experience
+
+## Areas of improvement
+1. The App still can be more broken down into components
+2. Functional test can be added by using cypress
+3. Can cache location data if already searched for it by using memo.
 
 ## Available Scripts
 
